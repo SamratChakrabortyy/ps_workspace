@@ -1,8 +1,8 @@
 package p5_workspace;
 
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+import java.util.;
+import java.util.function.;
+import java.util.stream.;
 
 class GenerateParanthesis {
 
@@ -40,7 +40,7 @@ class GenerateParanthesis {
         return this.nToParaListMap.get(n);
     }
 
-    /*
+    /
     	n = 5
 
     	nToParaListMap = {
@@ -51,5 +51,5 @@ class GenerateParanthesis {
 
     	}
 
-    */
+    /
 }

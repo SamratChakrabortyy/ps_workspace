@@ -1,6 +1,6 @@
 package p5_workspase;
 
-import java.util.*;
+import java.util.;
 
 
 class Solution {
@@ -34,7 +34,7 @@ class Solution {
         }
         return 0.0;
     }
-     /*
+     /
      		i 		0 	1 	2 	3 	4
      		nums1 = 1 	6	8	10	14
      		nums2 = 30	100
@@ -48,7 +48,7 @@ class Solution {
 
      		left1 = 8		right1 = 10
      		left2 = 30		right2 = 100
-     */ 
+     / 
 
      private int getValidVal(int[] nums, int idx) {
      	return idx < 0 ? Integer.MIN_VALUE :
